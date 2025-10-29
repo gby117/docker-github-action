@@ -1,3 +1,3 @@
-FROM alpine:3.20
-RUN echo "Hello from Gabby's Docker image!" > /hello.txt
-CMD ["cat", "/hello.txt"]
+# Tiny web server that always builds
+FROM nginx:alpine
+RUN echo '🚀 Hello from gby117 / IS147' > /usr/share/nginx/html/index.html
