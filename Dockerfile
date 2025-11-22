@@ -1,3 +1,3 @@
 # Tiny web server that always builds
 FROM nginx:alpine
-RUN echo '🚀 Hello from gby117 / IS147' > /usr/share/nginx/html/index.html
+COPY .github/workflows/lab5_gabrielle_settles.html /usr/share/nginx/html/index.html
